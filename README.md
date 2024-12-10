@@ -1,56 +1,34 @@
-# 🚀 Project Title
+# 🚀 Cloud Computing Path
 
-> **Tagline atau deskripsi singkat tentang proyek.**  
-Contoh: *"Sebuah platform inovatif untuk [tujuan proyek] yang menggabungkan teknologi modern untuk memberikan solusi terbaik."*
+> **Cloud Comuputing Implementation.**  
+*"Deploy API, Model, and Monitoring"*
 
 ---
 
 ## 📚 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Contact](#-contact)
+- [Member Team](#-member-team)
+- [Getting Started](#-deployment)
 
 ---
 
 ## 📖 About the Project
 
-Ceritakan sedikit tentang proyek ini. Jelaskan apa yang menginspirasi Anda, masalah yang ingin diselesaikan, atau peluang yang ingin dimanfaatkan.
+Ini merupakan Repositori dari tim Cloud Computing.
 
-### 🎯 Goals
-- **Goal 1**: Singkatkan produktivitas pengguna.
-- **Goal 2**: Berikan solusi efektif untuk [masalah tertentu].
-- **Goal 3**: [Tujuan lainnya].
+### 🎯 Member Team
+- **1**: Moch. Arif Samsul Rizal.
+- **2**: Michael Kondengis.
 
----
-
-## ✨ Features
-
-- ✅ Fitur utama 1
-- ✅ Fitur utama 2
-- ✅ Fitur tambahan 3
 
 ---
 
-## 🛠️ Technologies Used
+## 🏁 Deployment
 
-Proyek ini dibuat menggunakan teknologi berikut:
-
-- **[Framework/Platform]**: React, Laravel, atau lainnya.
-- **[Bahasa Pemrograman]**: JavaScript, Python, PHP.
-- **[Database]**: MySQL, MongoDB, dll.
-- **[Lainnya]**: Docker, Tailwind CSS, dsb.
-
----
-
-## 🏁 Getting Started
-
-Ikuti langkah-langkah berikut untuk menjalankan proyek ini di lingkungan lokal Anda:
+Ikuti langkah-langkah berikut untuk menjalankan deploy model dan API di Cloud Run:
+gcloud builds submit --tag gcr.io/yubi-flask/yubi
+gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
 
 1. Clone repository:
    ```bash
