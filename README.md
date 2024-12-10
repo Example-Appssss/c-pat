@@ -27,8 +27,8 @@ Ini merupakan Repositori dari tim Cloud Computing.
 ## 🏁 Deployment
 
 Ikuti langkah-langkah berikut untuk menjalankan deploy model dan API di Cloud Run:
-gcloud builds submit --tag gcr.io/yubi-flask/yubi
-gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
+- gcloud builds submit --tag gcr.io/yubi-flask/yubi
+- gcloud run deploy yubi --image gcr.io/yubi-flask/yubi --platform managed --region asia-southeast2 --allow-unauthenticated
 
 1. Clone repository:
    ```bash
